@@ -19,7 +19,7 @@ const Home = () => {
             <h2>
               Discover, Order, and Relish – All in Just a Few Clicks. <span className="drink-icon">🍹</span>
             </h2>
-          <h1> test CICD - new change committed</h1>
+          
             <div className="cta-section">
               <p>Got Ingredients? Let's Make Something Tasty with AI!</p>
               <button className="ask-ai-button">Ask AI</button>
