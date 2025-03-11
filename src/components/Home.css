@@ -1,0 +1,84 @@
+/* src/pages/Home.css */
+.home {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero {
+    background-color: #000;
+    color: white;
+    padding: 0;
+    flex: 1;
+  }
+  
+  .hero-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .hero-image {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    font: 100;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: normal;
+  }
+  
+  .cta-section {
+    margin-top: 3rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ask-ai-button {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ask-ai-button:hover {
+    background-color: #5a5a5a;
+  }
+  
+  .top-meals-section {
+    padding: 2rem;
+    background-color: #000;
+    color: #808080;
+  }
+  
+  .top-meals-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
